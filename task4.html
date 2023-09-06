@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        caption {
+            font-size: 30px;
+        }
+        td {
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>TASK 4 - HTML</h1>
+        </header>        
+        <form>
+            <table>
+                <caption><p>Registration Form</p></caption>
+                <tr>
+                   <td width="150">
+                    <label for="fullname">Full Name:</label>
+                   </td>
+                   <td><input type="text" placeholder="Enter your Name" id="fullname" name="fullname" required></td> 
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="Username">Username:</label>
+                    </td>
+                    <td><input type="text" placeholder="Username" id="Username" name="Username" required></td>
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="password">Password:</label>
+                    </td>
+                    <td><input type="password" placeholder="Enter your password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="repwd">Re Password:</label>
+                    </td>
+                    <td><input type="password" placeholder="Re-enter password" id="repwd" required</td>
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="address">Address:</label>
+                    </td>
+                    <td><input type="text" placeholder="Enter your Address" id="address"></td>
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="age">Age:</label>
+                    </td>
+                    <td><input type="number" placeholder="Enter user Age" id="age" name="age" required></td>
+                </tr>
+                <tr>
+                    <td width="150">
+                        <label for="gender">Gender:</label>
+                    </td>
+                    <td>
+                        <select id="gender" name="gender" required>
+                            <option value="" selected>--Choose your Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Prefer not to say</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Save" formtarget="_blank" formaction="_blank" style="margin: 8px 0px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

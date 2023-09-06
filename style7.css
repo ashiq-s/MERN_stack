@@ -1,0 +1,64 @@
+h3 {
+    font-size: 24px;
+    text-decoration: underline;
+    text-transform: inherit;
+}
+
+.horizontal {
+    display: flex;
+    width: 100%;
+    background-color: rgb(229, 232, 232);
+    height: auto;
+    justify-content: center;
+    padding: 20px;
+    font-size: larger;
+    border: 3px solid black;
+}
+
+.horizontal a {
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid #c0bdbd;
+    border-spacing: none;
+    border-collapse: collapse;
+    width: 100px;
+}
+
+#hnav .horizontal a:hover {
+    background-color: #575555;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.vertical {
+    margin: 20px 50px 50px 50px;
+    outline: 1px solid rgb(161, 161, 161);
+    width: 200px;
+}
+  
+.vertical ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.vertical li {
+    text-align: center;
+    background-color: #8ed2fa;
+}
+
+.vertical a { 
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+    transition: background-color 0.3s ease-out;
+}
+
+.vertical a:hover {
+    background-color: #fa9922;
+    color: #fff;
+}
+  

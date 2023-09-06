@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px #000;
+    border-radius: 10px;
+    margin: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    height: 15px;
+    margin: 8px;
+}
+
+th {
+    text-align: left;
+    background-color: #13d49a;
+    color: #e1e3e3;
+    height: 40px;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #d2d6d4;
+}
